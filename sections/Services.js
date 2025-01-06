@@ -9,9 +9,9 @@ const Services = () => {
       <section className='agency bg-top'>
         <div className='container'>
           <div className='heading-title'>
-            <TitleSm title='SERVICES' /> <br />
+            <TitleSm title='TALKSHOW' /> <br />
             <br />
-            <Title title='Our Services' className='title-bg' />
+            <Title title='Our Content' className='title-bg' />
           </div>
           <div className='grid-2 py'>
             {expertise.map((item) => (

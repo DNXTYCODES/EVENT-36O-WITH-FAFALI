@@ -31,7 +31,9 @@ const Hero = () => {
 
           {/* Sub-heading */}
           <div className="sub-heading hero-sub">
-            <TitleSm title="TALKSHOW" /> 
+            <TitleSm className="sub-text-header" title="TALKSHOW" /> 
+            <p className="sub-text"><i>Catch Exclusive Insights Into Various Topics With Various Guests</i></p>
+            <button className="button-primary">Get Started</button>
             {/* <span>.</span>
             <TitleSm title="INTERVIEWS" /> <span>.</span>
             <TitleSm title="EVENT COVERAGE" /> */}

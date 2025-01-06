@@ -6,19 +6,19 @@ import { BiUser } from "react-icons/bi";
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "Talkshow",
+    title: "Weekly Tv Talkshow",
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Quality Event Coverage ",
+    title: "Sponshorship/Advert Placements",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "Event Sponshorship",
+    title: "Interviews With Industry Specialists ",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Advertising",
+    title: "Event Coverage",
   },
 ];
 export const expertise = [
@@ -29,7 +29,7 @@ export const expertise = [
     desc: [
       { text: "TV Talkshow" },
       { text: "CEO Interviews" },
-      { text: "Lifestyle" },
+      { text: "Industry Specialists" },
       { text: "Indept Discussions" },
       { text: "Trending News Updates" },
       { text: "Current Affairs" },
@@ -38,7 +38,7 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "Event Coverage",
+    title: "Event Highlights",
     cover: "../images/wdcovinterivew.jpg",
     desc: [
       { text: "Weddings" },
@@ -47,7 +47,7 @@ export const expertise = [
       { text: "Grand Openings" },
       { text: "Educational Events" },
       { text: "Grand Openings" },
-      { text: "Anniversaries" },
+      { text: "Anniversaries" },+
       { text: "Birthdays" },
     ],
   },
@@ -83,69 +83,69 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Ama Mensah",
-    cover: "../images/e1.jpeg",
-    post: "Traditional Wedding Coverage - Bride",
-    desc: '"The team went above and beyond to capture every special moment of our wedding. Their professionalism and creativity blew us away. Highly recommended!"',
+    name: "Kofi B.",
+    cover: "../images/t6.jpg",
+    post: "CEO of Glow Beauty",
+    desc: '"As a sponsor, I’m impressed by how well the team integrates our brand into their content. The show has been instrumental in helping us connect with our target audience"',
   },
   {
     id: 2,
-    name: "David. T",
-    cover: "../images/e2.jpg",
-    post: "Corporate Gala Night Coverage - Host",
-    desc: '"Their professionalism and ability to blend into the event seamlessly were outstanding. The final video not only captured the night’s glamour but also highlighted the significance of our cause. Exceptional work!"',
+    name: "Chloe T.",
+    cover: "../images/t7.jpg",
+    post: "Marketing Manager, Sunshine Events",
+    desc: 'Placing an advert with the show has been a game-changer for my business. The audience engagement has exceeded our expectations, and we’ve seen a noticeable boost in sales"',
   },
   {
     id: 3,
-    name: "Kofi Boateng",
-    cover: "../images/e3.jpg",
-    post: " Talk Show Recording and Production - Host",
-    desc: '"Working with this team was an absolute delight. They transformed our simple set into a dynamic, visually engaging talk show. Everyone who’s seen the episodes is amazed at the production quality!"',
+    name: "Kamala T.",
+    cover: "../images/t2.jpg",
+    post: " Music Producer, Sonic Vibes Studios",
+    desc: '"This show offers such a refreshing take on current events and trends in the entertainment industry. I always tune in for their honest reviews and vibrant discussions."',
   },
   {
     id: 4,
     name: "Nana Adjoa",
-    cover: "../images/e4.jpg",
-    post: "50th Birthday Celebration Photography & Videography - Daughter",
-    desc: '"They made my milestone birthday unforgettable. From candid moments with family to beautifully posed portraits, every photo told a story. The event highlight video was the icing on the cake!"',
+    cover: "../images/t5.jpg",
+    post: "CEO, Stardom Media Consult",
+    desc: '"As an industry specialist, I’ve had the privilege of being a guest on this show. It’s a fantastic platform that supports Ghanaian creatives and professionals."',
   },
 ];
 export const showcase = [
   {
     id: 1,
-    title: "Corporate Events",
-    cover: "../images/gala.jpg",
-    catgeory: "GALA And Award Night",
+    title: "INTERVIEW WITH INDUSTRY SPECIALISTS",
+    cover: "../images/bbinterview.jpg",
+    catgeory: "CEO @ Skincare Business",
   },
   {
     id: 2,
-    title: "Social Events",
-    cover: "../images/weddingdancer.jpg",
-    catgeory: "The Royal Kente Wedding of Kofi & Ama",
+    title: "INTERVIEW AT EVENTS",
+    cover: "../images/wdcovinterivew.jpg",
+    catgeory: "Bride's Mother @ Wedding",
   },
   {
     id: 3,
-    title: "Entertainment & Showbiz",
-    cover: "../images/behindthescenes.jpg",
-    catgeory: "Behind the Scenes",
+    title: "INTERVIEW WITH ORGANISERS",
+    cover: "../images/interview.jpg",
+    catgeory: "CEO @ Event Planner"
   },
   {
     id: 4,
-    title: "Religious Events",
+    title: "INTERVIEW WITH SEASONED LEADERS",
     cover: "../images/churchevent.jpg",
-    catgeory: "Covenant Family Church – 25th Anniversary Gala	",
+    catgeory: "Head Pastor @ Church",
   },
   {
     id: 5,
-    title: "Educational Events",
-    cover: "../images/stemgirls.jpeg",
-    catgeory: "STEM Girls in Africa",
+    title: "INTERVIEW WITH AGENCIES",
+    cover: "../images/usheringinterview.png",
+    catgeory: "Managers @ Ushering Agency",
   },
   {
     id: 5,
-    title: "TV Interviews",
-    cover: "../images/interview.jpg",
-    catgeory: "Interviews with CEOs",
+    title: "INTERVIEW WITH PROFESSIONALS",
+    cover: "../images/photographerinterview.png",
+    catgeory: "Photographer @ Media Studio",
   },
 ];
 export const brand = [
