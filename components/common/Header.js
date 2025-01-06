@@ -51,7 +51,7 @@ const Header = () => {
               href="/showcase"
               className={activeLink == "/showcase" ? "activeLink" : "none"}
             >
-              Showcase
+              Showcase 
             </Link>
             {/* <Link href='/blogs' className={activeLink == "/blogs" ? "activeLink" : "none"}>
               Blog
