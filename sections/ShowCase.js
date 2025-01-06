@@ -21,7 +21,7 @@ const ShowCase = () => {
             ))}
           </div>
           <div className='py btn'>
-            <button className='secondary-button'>
+            <button className='secondary-button sb'>
               <a href="https://www.instagram.com/_event360withfafali/">View More</a>
             </button>
           </div>

@@ -1,7 +1,7 @@
-import { AiOutlineCalendar } from "react-icons/ai"
-import { TfiRulerPencil } from "react-icons/tfi"
-import { VscFileSubmodule } from "react-icons/vsc"
-import { BiUser } from "react-icons/bi"
+import { AiOutlineCalendar } from "react-icons/ai";
+import { TfiRulerPencil } from "react-icons/tfi";
+import { VscFileSubmodule } from "react-icons/vsc";
+import { BiUser } from "react-icons/bi";
 
 export const home = [
   {
@@ -20,33 +20,66 @@ export const home = [
     icon: <BiUser size={25} />,
     title: "Advertising",
   },
-]
+];
 export const expertise = [
   {
     id: 1,
     title: "Talkshow",
     cover: "../images/showposter.jpg",
-    desc: [{ text: "TV Talkshow" }, { text: "Educative Content" }, { text: "Lifestyle" }, { text: "Indept Discussions" }],
+    desc: [
+      { text: "TV Talkshow" },
+      { text: "CEO Interviews" },
+      { text: "Lifestyle" },
+      { text: "Indept Discussions" },
+      { text: "Trending News Updates" },
+      { text: "Current Affairs" },
+      { text: "Entertainment" },
+    ],
   },
   {
     id: 2,
     title: "Event Coverage",
     cover: "../images/wdcovinterivew.jpg",
-    desc: [{ text: "Weddings" }, { text: "Gospel Concerts" }, { text: "Birthdays" }, { text: "Community Celebrations" }, { text: "Anniversaries" }],
+    desc: [
+      { text: "Weddings" },
+      { text: "Gospel Concerts" },
+      { text: "Award Ceremonies" },
+      { text: "Grand Openings" },
+      { text: "Educational Events" },
+      { text: "Grand Openings" },
+      { text: "Anniversaries" },
+      { text: "Birthdays" },
+    ],
   },
   {
     id: 3,
     title: "Celebrity Coverage",
     cover: "../images/sadiqinterview.jpg",
-    desc: [{ text: "Celebrity Interviews" }, { text: "Red Carpet Coverage" }, { text: "Celebrity Gist" }, { text: "Award Shows" }],
+    desc: [
+      { text: "Celebrity Interviews" },
+      { text: "Red Carpet Coverage" },
+      { text: "Celebrity Gist" },
+      { text: "Award Shows" },
+      { text: "Behind the Scenes" },
+      { text: "Gossip" },
+    ],
   },
   {
     id: 4,
     title: "Event Planning",
     cover: "../images/indoorwedding.jpg",
-    desc: [{ text: "Luxury Parties" }, { text: "Weddings" }, { text: "Drone Videography" }, { text: "Drone PhotoGraphy" }],
+    desc: [
+      { text: "Event Planners" },
+      { text: "Makeup Artists" },
+      { text: "Jewelery" },
+      { text: "Catering Services" },
+      { text: "Live Performances" },
+      { text: "Comedians and Variety acts" },
+      { text: "Emcees ans hosts" },
+      { text: "Dancers and choreographers" },
+    ],
   },
-]
+];
 export const testimonial = [
   {
     id: 1,
@@ -76,7 +109,7 @@ export const testimonial = [
     post: "50th Birthday Celebration Photography & Videography - Daughter",
     desc: '"They made my milestone birthday unforgettable. From candid moments with family to beautifully posed portraits, every photo told a story. The event highlight video was the icing on the cake!"',
   },
-]
+];
 export const showcase = [
   {
     id: 1,
@@ -114,7 +147,7 @@ export const showcase = [
     cover: "../images/interview.jpg",
     catgeory: "Interviews with CEOs",
   },
-]
+];
 export const brand = [
   {
     id: 1,
@@ -140,7 +173,7 @@ export const brand = [
     id: 6,
     cover: "../images/l6.svg",
   },
-]
+];
 export const blogdata = [
   {
     id: 1,
@@ -158,7 +191,8 @@ export const blogdata = [
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
+    title:
+      "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
     cover: "../images/b3.jpg",
     catgeory: "TIPS & TRICKS",
     date: "OCTOBER 9, 2023",
@@ -170,7 +204,7 @@ export const blogdata = [
     catgeory: "EVENTS",
     date: "OCTOBER 8, 2023",
   },
-]
+];
 export const teamdata = [
   {
     id: 1,
@@ -220,4 +254,4 @@ export const teamdata = [
     cover: "../images/t8.jpg",
     post: "",
   },
-]
+];

@@ -143,6 +143,10 @@
   .card-img {
     height: 400px;
   }
+  .sb {
+    background-color: gold;
+    color: white;
+  }
   .links {
     @include flex(none, flex-end, none);
   }
@@ -304,7 +308,7 @@ footer {
   .right {
     border-radius: 50px 0 50px 0;
     padding: $xll;
-    background-color: #171e20;
+    background: $gradient;
     form {
       margin-top: $xll;
     }

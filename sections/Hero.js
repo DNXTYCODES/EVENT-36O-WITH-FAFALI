@@ -32,9 +32,9 @@ const Hero = () => {
           {/* Sub-heading */}
           <div className="sub-heading hero-sub">
             <TitleSm title="TALKSHOW" /> 
-            <span>.</span>
+            {/* <span>.</span>
             <TitleSm title="INTERVIEWS" /> <span>.</span>
-            <TitleSm title="EVENT COVERAGE" />
+            <TitleSm title="EVENT COVERAGE" /> */}
           </div>
         </div>
       </section>
@@ -43,7 +43,7 @@ const Hero = () => {
       <section className="hero-sec">
         <div className="container">
           <div className="heading-title">
-            <Title title="Capture Every Moment. Relive Every Memory" />
+            <Title title="If It Glitters, we'll Cover It" />
             <p>
             From celebrity interviews to weddings, we bring your events to life with unparalleled coverage and storytelling
             </p>
