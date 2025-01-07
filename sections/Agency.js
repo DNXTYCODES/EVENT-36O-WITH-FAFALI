@@ -8,6 +8,7 @@ const Agency = () => {
     <>
       <section className="agency bg-top">
         <div className="container">
+
           <div className="heading-title">
             <TitleSm title="WHY SPONSOR/PARTNER WITH US" /> <br />
             <br />
@@ -37,10 +38,10 @@ const Agency = () => {
                   <h1 className="indigo">50+</h1>
                   <h3>50+ SHOWS</h3>
                 </div>
-                <div className="box">
+                {/* <div className="box">
                   <h1 className="indigo">12+</h1>
                   <h3>Industry awards</h3>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="right w-40 ml">
@@ -159,6 +160,7 @@ const Agency = () => {
               </p>
             </div>
           </div>
+
         </div>
       </section>
 
