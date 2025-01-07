@@ -36,7 +36,7 @@ const Agency = () => {
                 </div>
                 <div className="box">
                   <h1 className="indigo">50+</h1>
-                  <h3>50+ SHOWS</h3>
+                  <h3>50+ EPISODES</h3>
                 </div>
                 {/* <div className="box">
                   <h1 className="indigo">12+</h1>
