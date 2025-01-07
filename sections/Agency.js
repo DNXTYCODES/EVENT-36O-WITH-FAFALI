@@ -96,7 +96,7 @@ const Agency = () => {
               />
             </div>
             <div className="right w-60 ml">
-              <TitleSm title="Our Reach" />
+              <TitleSm title="Why Advertise with Us" />
               <br />
               <p className="misson-p">
                 <p>
@@ -132,7 +132,7 @@ const Agency = () => {
               />
             </div>
             <div className="right w-60 ml">
-              <TitleSm title="Why Advertise With us" />
+              <TitleSm title="Our Mission" />
               <br />
               <p className="misson-p">
                 <p>
