@@ -25,7 +25,7 @@ export const expertise = [
   {
     id: 1,
     title: "Talkshow",
-    cover: "../images/fafali2.jpg",
+    cover: "../images/cateringinterview.png",
     desc: [
       { text: "TV Talkshow" },
       { text: "CEO Interviews" },
