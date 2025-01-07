@@ -7,6 +7,20 @@ import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
 import { BlogCard, Brand } from "@/components/router";
 import React from "react";
 
+const YouTubeEmbed = ({ videoId }) => {
+  return (
+      <div className="video-container">
+          <iframe
+              src={`https://www.youtube.com/embed/${videoId}`}
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+          ></iframe>
+      </div>
+  );
+};
+
 const Hero = () => {
   return (
     <>
@@ -49,6 +63,8 @@ const Hero = () => {
             <p>
             From celebrity interviews to weddings, we bring your events to life with unparalleled coverage and storytelling
             </p>
+            <YouTubeEmbed videoId="p9taQetZ1tA" />
+
           </div>
           <div className="hero-content grid-4">
             {home.map((item, i) => (

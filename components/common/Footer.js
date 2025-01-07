@@ -39,29 +39,29 @@ const Footer = () => {
                 <Link href='/'>Demo design system</Link>
               </li> */}
               <li>
-                <Link href='/'>Contact</Link>
+                <Link href='/contact'>Contact</Link>
               </li>
             </ul>
             <ul>
               <h3>SERVICES</h3>
               <li>
-                <Link href='/services'>TalKshow</Link>
+                <Link href='/services'>Talkshow</Link>
               </li>
               <li>
-                <Link href='/services'>Interviews</Link>
+                <Link href='https://www.youtube.com/@event360withfafali7s'>Interviews</Link>
               </li>
               <li>
-                <Link href='/services'>Sponshorship</Link>
+                <Link href='/advert'>Sponshorship</Link>
               </li>
               <li>
-                <Link href='/services'>Advertising</Link>
+                <Link href='/advert'>Advertising</Link>
               </li>
             </ul>
             <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
-                  <Link href='/'>
+                  <Link href='https://web.facebook.com/profile.php?id=100066589957024'>
                     <BsFacebook size={25} />
                   </Link>
                 </li>
@@ -71,12 +71,12 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href='/'>
+                  <Link href='https://www.instagram.com/_event360withfafali/'>
                     <AiFillInstagram size={25} />
                   </Link>
                 </li>
                 <li>
-                  <Link href='https://www.instagram.com/_event360withfafali/'>
+                  <Link href='https://www.linkedin.com/company/event-360-with-fafali/'>
                     <AiFillLinkedin size={25} />
                   </Link>
                 </li>

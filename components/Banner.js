@@ -11,7 +11,11 @@ const Banner = () => {
             <TitleLogo title='Let’s Create Something Amazing Together!' />
           </div>
           <div>
-            <button className='button-primary'>Contact Us</button>
+            <button className='button-primary'>
+              <a href="/contact">
+              Contact Us
+              </a>
+              </button>
           </div>
         </div>
       </section>
