@@ -25,7 +25,7 @@ const Agency = () => {
                 Welcome to EVENT360 WITH FAFALI, the premier TV talk show that
                 brings families together for engaging interviews, reviews, and
                 discussions on the latest trends in entertainment, beauty, and
-                culture. Our show attracts a diverse and dedicated audience
+                culture on Top Tier TV stations GOTV, DSTV, GHONEtv. Our show attracts a diverse and dedicated audience
                 across Ghana, making it the perfect platform for your brand to
                 shine.
               </p>

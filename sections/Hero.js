@@ -9,15 +9,15 @@ import React from "react";
 
 const YouTubeEmbed = ({ videoId }) => {
   return (
-      <div className="video-container">
-          <iframe
-              src={`https://www.youtube.com/embed/${videoId}`}
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-          ></iframe>
-      </div>
+    <div className="video-container">
+      <iframe
+        src={`https://www.youtube.com/embed/${videoId}`}
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
   );
 };
 
@@ -29,25 +29,32 @@ const Hero = () => {
         {/* Background Video */}
         {/* <video className="background-video" autoPlay muted loop> */}
         <video className="background-video" autoPlay loop muted>
-          <source
-            src="images/event360vidintro.mp4"
-            type="video/mp4"
-          />
+          <source src="images/event360vidintro.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
         <div className="container">
           {/* Hero Logo */}
-          <TitleLogo title="with Fafali" caption="Events 360 " className="logobg" />
+          <TitleLogo
+            title="with Fafali"
+            caption="Events 360 "
+            className="logobg"
+          />
 
           {/* Hero Title */}
           <h1 className="hero-title"></h1>
 
           {/* Sub-heading */}
           <div className="sub-heading hero-sub">
-            <TitleSm className="sub-text-header" title="TALKSHOW" /> 
-            <p className="sub-text"><i>Catch Exclusive Insights Into Various Topics With Various Guests</i></p>
-            <button className="button-primary">Get Started</button>
+            <TitleSm className="sub-text-header" title="TALKSHOW" />
+            <p className="sub-text">
+              <i>
+                Catch Exclusive Insights Into Various Topics With Various Guests
+              </i>
+            </p>
+            <button className="button-primary">
+              <a href="/contact">Get Started</a>
+            </button>
             {/* <span>.</span>
             <TitleSm title="INTERVIEWS" /> <span>.</span>
             <TitleSm title="EVENT COVERAGE" /> */}
@@ -61,10 +68,10 @@ const Hero = () => {
           <div className="heading-title">
             <Title title="If It Glitters, we'll Cover It" />
             <p>
-            From celebrity interviews to weddings, we bring your events to life with unparalleled coverage and storytelling
+              From celebrity interviews to weddings, we bring your events to
+              life with unparalleled coverage and storytelling
             </p>
             <YouTubeEmbed videoId="p9taQetZ1tA" />
-
           </div>
           <div className="hero-content grid-4">
             {home.map((item, i) => (

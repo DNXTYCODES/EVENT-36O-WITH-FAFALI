@@ -14,11 +14,11 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "Interviews With Industry Specialists ",
+    title: "Events Reviews",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Events Reviews",
+    title: "Interviews With Industry Specialists ",
   },
 ];
 export const expertise = [

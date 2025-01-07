@@ -156,3 +156,13 @@
     padding: 50px 0;
   }
 }
+@media screen and (max-width: 720px) {
+  .slick-arrow .next {
+    // scale: 0.5;
+  }
+  .slick-arrow .prev {
+    // scale: 0.5;
+    left: 70%;
+  }
+}
+
