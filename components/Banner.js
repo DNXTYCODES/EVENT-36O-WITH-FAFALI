@@ -7,7 +7,7 @@ const Banner = () => {
       <section className='banner'>
         <div className='container'>
           <div>
-            <Title title='Get Started with Us' /> <br />
+            {/* <Title title='Get Started with Us' /> <br /> */}
             <TitleLogo title='Let’s Create Something Amazing Together!' />
           </div>
           <div>

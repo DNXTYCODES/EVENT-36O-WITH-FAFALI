@@ -24,8 +24,8 @@ export const home = [
 export const expertise = [
   {
     id: 1,
-    title: "Talkshow",
-    cover: "../images/cateringinterview.png",
+    title: "Host",
+    cover: "../images/fafali.jpg",
     desc: [
       { text: "TV Talkshow" },
       { text: "CEO Interviews" },
@@ -38,6 +38,21 @@ export const expertise = [
   },
   {
     id: 2,
+    title: "Guests",
+    cover: "../images/cateringinterview.png",
+    desc: [
+      { text: "Event Planners" },
+      { text: "Caterers and Chefs" },
+      { text: "MCs/Hosts" },
+      { text: "Stylists and Makeup Artists" },
+      { text: "Authors or Bloggers" },
+      { text: " Elders" },
+      { text: "Cultural Experts" },+
+      { text: "DIY Experts" },
+    ],
+  },
+  {
+    id: 3,
     title: "Advertising",
     cover: "../images/darklogo.jpg",
     desc: [
@@ -50,21 +65,6 @@ export const expertise = [
       { text: "Segmaent Sponsorships" },
       { text: "Exclusive Features" },
       { text: "Content Integration" },
-    ],
-  },
-  {
-    id: 3,
-    title: "Events Reviews",
-    cover: "../images/wdcovinterivew.jpg",
-    desc: [
-      { text: "Weddings" },
-      { text: "Gospel Concerts" },
-      { text: "Award Ceremonies" },
-      { text: "Grand Openings" },
-      { text: "Educational Events" },
-      { text: "Grand Openings" },
-      { text: "Anniversaries" },+
-      { text: "Birthdays" },
     ],
   },
   {
@@ -85,29 +85,29 @@ export const expertise = [
 export const testimonial = [
   {
     id: 1,
-    name: "Kofi B.",
-    cover: "../images/t6.jpg",
+    name: "Beauty M.",
+    cover: "../images/p.png",
     post: "CEO of Glow Beauty",
     desc: '"As a sponsor, I’m impressed by how well the team integrates our brand into their content. The show has been instrumental in helping us connect with our target audience"',
   },
   {
     id: 2,
     name: "Chloe T.",
-    cover: "../images/t7.jpg",
+    cover: "../images/q.jpg",
     post: "Marketing Manager, Sunshine Events",
     desc: 'Placing an advert with the show has been a game-changer for my business. The audience engagement has exceeded our expectations, and we’ve seen a noticeable boost in sales"',
   },
   {
     id: 3,
     name: "Kamala T.",
-    cover: "../images/t2.jpg",
+    cover: "../images/pp.png",
     post: " Music Producer, Sonic Vibes Studios",
     desc: '"This show offers such a refreshing take on current events and trends in the entertainment industry. I always tune in for their honest reviews and vibrant discussions."',
   },
   {
     id: 4,
     name: "Nana Adjoa",
-    cover: "../images/t5.jpg",
+    cover: "../images/ppp.png",
     post: "CEO, Stardom Media Consult",
     desc: '"As an industry specialist, I’ve had the privilege of being a guest on this show. It’s a fantastic platform that supports Ghanaian creatives and professionals."',
   },

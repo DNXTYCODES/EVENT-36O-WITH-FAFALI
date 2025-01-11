@@ -26,10 +26,7 @@ const Hero = () => {
     <>
       {/* Hero Section */}
       <section className="hero">
-        {/* Background Video */}
-        {/* <video className="background-video" autoPlay muted loop> */}
-        {/* <video className="background-video" autoPlay loop muted> */}
-        <video className="background-video" autoPlay loop>
+        <video className="background-video" autoPlay loop muted>
           <source src="images/event360vidintro.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
