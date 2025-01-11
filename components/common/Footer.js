@@ -5,6 +5,7 @@ import {
   AiFillBehanceCircle,
   AiFillInstagram,
   AiFillLinkedin,
+  AiFillYoutube,
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -59,10 +60,10 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/advert">Sponshorship</Link>
+                <Link href="/agency">Sponshorship</Link>
               </li>
               <li>
-                <Link href="/advert">Advertising</Link>
+                <Link href="/agency">Advertising</Link>
               </li>
             </ul>
             <ul>
@@ -74,8 +75,9 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/">
-                    <AiFillBehanceCircle size={25} />
+                  <Link href="https://www.youtube.com/@event360withfafali7s">
+                    {/* <AiFillBehanceCircle size={25} /> */}
+                    <AiFillYoutube size={25} />
                   </Link>
                 </li>
                 <li>
