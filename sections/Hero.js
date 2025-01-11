@@ -28,7 +28,8 @@ const Hero = () => {
       <section className="hero">
         {/* Background Video */}
         {/* <video className="background-video" autoPlay muted loop> */}
-        <video className="background-video" autoPlay loop muted>
+        {/* <video className="background-video" autoPlay loop muted> */}
+        <video className="background-video" autoPlay loop>
           <source src="images/event360vidintro.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -46,12 +47,13 @@ const Hero = () => {
 
           {/* Sub-heading */}
           <div className="sub-heading hero-sub">
-            <TitleSm className="sub-text-header" title="TALKSHOW" />
-            <p className="sub-text">
-              <i>
+            {/* <TitleSm className="sub-text-header" title="TALKSHOW" /> */}
+            <h2 className="hero-talkshow">TALKSHOW</h2>
+            <div className="sub-text">
+              <p className="hero-intro">
                 Catch Exclusive Insights Into Various Topics With Various Guests
-              </i>
-            </p>
+              </p>
+            </div>
             <button className="button-primary">
               <a href="/contact">Get Started</a>
             </button>

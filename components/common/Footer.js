@@ -23,7 +23,7 @@ const Footer = () => {
               <br />
               <h3>+233 20 326 6081</h3>
               <br />
-              <button className="button-primary">
+              <button className="button-primary purple">
                 <a href="/contact">Request a quote</a>
               </button>
             </div>
